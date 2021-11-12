@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Demo.Solid.Model
 {
-    public class Geladeira : Product
+    public  class Geladeira : Product
     {
 
         public Geladeira(string name, decimal price) : base(name, price)
@@ -18,5 +18,9 @@ namespace Demo.Solid.Model
             Price *= .8m;
         }
 
+        public override string ObterCaracteristica()
+        {
+            return "Geladeira";
+        }
     }
 }

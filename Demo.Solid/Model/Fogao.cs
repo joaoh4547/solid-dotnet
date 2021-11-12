@@ -17,5 +17,10 @@ namespace Demo.Solid.Model
         {
             Price *= .75m;
         }
+
+        public override string ObterCaracteristica()
+        {
+            return "Fogão";
+        }
     }
 }
