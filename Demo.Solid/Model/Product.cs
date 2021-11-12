@@ -13,15 +13,6 @@ namespace Demo.Solid.Model
             Price = price;
         }
 
-        public void Save()
-        {
-
-        }
-
-        public Product GetProduct()
-        {
-            return null;
-        }
     }
 }
 
